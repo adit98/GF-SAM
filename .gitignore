@@ -10,8 +10,10 @@ inference_test_output
 
 # compilation and distribution
 __pycache__
+**/__pycache__
 _ext
 *.pyc
+**/*.pyc
 *.pyd
 *.so
 *.dll
@@ -49,3 +51,12 @@ _darcs
 /projects/*/datasets
 /models
 /snippet
+
+# data
+datasets
+
+# model checkpoints
+models
+
+# logs
+outputs
