@@ -56,7 +56,7 @@ _darcs
 datasets
 
 # model checkpoints
-models
+./models/
 
 # logs
 outputs
